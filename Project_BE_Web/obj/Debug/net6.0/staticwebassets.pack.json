@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Project_BE_Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },

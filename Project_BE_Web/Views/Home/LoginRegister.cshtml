@@ -1,82 +1,4 @@
 ﻿
-@* <script>
-    function appearRegisterForm() {
-    $("#mainLogin").hide(300);
-    $("#mainRegister").show(1000);
-    }
-    function appearLoginForm() {
-    $("#mainRegister").hide(300);
-    $("#mainLogin").show(1000);
-    }
-
-    //check valid data
-    const validateLoginData = () => {
-    let res_valid = false;
-    let re = /^\S+@\S+\.\S+$/;
-    //email
-    let v = $("#email").val();
-    if (re.test(v) == false) {
-        $(".invalid-feedback-email").addClass("show");
-    } else $(".invalid-feedback-email").removeClass("show");
-    //password
-    if ($("#pwd").val().length == 0) {
-        $(".invalid-feedback-password").addClass("show");
-        return false;
-    } else $(".invalid-feedback-password").removeClass("show");
-    };
-
-    const validateRegisterData = () => {
-    let res_valid = false;
-    let re = /^\S+@\S+\.\S+$/;
-    let v = $("#res_email").val();
-    if (re.test(v) == false) {
-        $(".invalid-feedback-res-email").addClass("show");
-        res_valid = true;
-    } else {
-        $(".invalid-feedback-res-email").removeClass("show");
-    }
-    if ($("#name").val().length == 0) {
-        $(".invalid-feedback-regis-name").addClass("show");
-        res_valid = true;
-    } else {
-        $(".invalid-feedback-regis-name").removeClass("show");
-    }
-    if (
-        $("#res_pwd").val() == $("#re_pwd").val() &&
-        `${$("#re_pwd").val()}` !== ""
-    ) {
-        $(".invalid-feedback-regis-re_password").removeClass("show");
-    } else {
-        $(".invalid-feedback-regis-re_password").addClass("show");
-        res_valid = true;
-    }
-    if ($("#res_pwd").val().length == 0) {
-        $(".invalid-feedback-res_password").addClass("show");
-        res_valid = true;
-    } else {
-        $(".invalid-feedback-res_password").removeClass("show");
-    }
-    };
-
-    //sync enter key
-    document.addEventListener("keyup", syncEnterKey);
-    function syncEnterKey(event) {
-    if (event.keyCode === 13) {
-        validateLoginData();
-    }
-    }
-
-    const hiddenShowPassword = (e, id) => {
-    let idQuery = "#" + id;
-    console.log($(idQuery).attr("type"));
-    if ($(idQuery).attr("type") == "text") {
-        $(idQuery).attr("type", "password");
-    } else {
-        $(idQuery).attr("type", "text");
-    }
-    };
-</script> *@
-
 <div class="container main" id="mainLogin">
     <div class="main_log">
     <div class="row">
@@ -106,17 +28,17 @@
             <div class="row space">
                 <p class="passw col-3">Mật khẩu</p>
                 <div class="p-0 m-0 col-9 position-relative">
-                <input
-                    class="col-12 form-control form-control-sm h-100"
-                    type="password"
-                    required
-                    aria-label=".form-control-sm example"
-                    id="pwd"
-                />
-                <i
-                    class="fa-solid fa-eye-slash position-absolute icon_password"
-                    onclick="hiddenShowPassword(event,`pwd`)"
-                ></i>
+                    <input
+                        class="col-12 form-control form-control-sm h-100"
+                        type="password"
+                        required
+                        aria-label=".form-control-sm example"
+                        id="pwd"
+                    />
+                    <i
+                        class="fa-solid fa-eye-slash position-absolute icon_password"
+                        onclick="hiddenShowPassword(event,`pwd`)"
+                    ></i>
                 </div>
 
                 <div class="invalid-feedback invalid-feedback-password">
@@ -290,3 +212,83 @@
     </div>
 </div>
 
+@section Scripts {
+    <script>
+    function appearRegisterForm() {
+    $("#mainLogin").hide(300);
+    $("#mainRegister").show(1000);
+    }
+    function appearLoginForm() {
+    $("#mainRegister").hide(300);
+    $("#mainLogin").show(1000);
+    }
+
+    //check valid data
+    const validateLoginData = () => {
+    let res_valid = false;
+    //let re = /^\S+@\S+\.\S+$/;
+    //email
+    let v = $("#email").val();
+    if (re.test(v) == false) {
+        $(".invalid-feedback-email").addClass("show");
+    } else $(".invalid-feedback-email").removeClass("show");
+    //password
+    if ($("#pwd").val().length == 0) {
+        $(".invalid-feedback-password").addClass("show");
+        return false;
+    } else $(".invalid-feedback-password").removeClass("show");
+    };
+
+    const validateRegisterData = () => {
+    let res_valid = false;
+    //let re = /^\S+@\S+\.\S+$/;
+    let v = $("#res_email").val();
+    if (re.test(v) == false) {
+        $(".invalid-feedback-res-email").addClass("show");
+        res_valid = true;
+    } else {
+        $(".invalid-feedback-res-email").removeClass("show");
+    }
+    if ($("#name").val().length == 0) {
+        $(".invalid-feedback-regis-name").addClass("show");
+        res_valid = true;
+    } else {
+        $(".invalid-feedback-regis-name").removeClass("show");
+    }
+    if (
+        $("#res_pwd").val() == $("#re_pwd").val() &&
+        `${$("#re_pwd").val()}` !== ""
+    ) {
+        $(".invalid-feedback-regis-re_password").removeClass("show");
+    } else {
+        $(".invalid-feedback-regis-re_password").addClass("show");
+        res_valid = true;
+    }
+    if ($("#res_pwd").val().length == 0) {
+        $(".invalid-feedback-res_password").addClass("show");
+        res_valid = true;
+    } else {
+        $(".invalid-feedback-res_password").removeClass("show");
+    }
+    };
+
+    //sync enter key
+    document.addEventListener("keyup", syncEnterKey);
+    function syncEnterKey(event) {
+    if (event.keyCode === 13) {
+        validateLoginData();
+    }
+    }
+
+    const hiddenShowPassword = (e, id) => {
+    let idQuery = "#" + id;
+    console.log($(idQuery).attr("type"));
+    if ($(idQuery).attr("type") == "text") {
+        $(idQuery).attr("type", "password");
+    } else {
+        $(idQuery).attr("type", "text");
+    }
+    };
+</script>
+
+}

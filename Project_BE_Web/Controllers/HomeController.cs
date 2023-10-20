@@ -22,10 +22,14 @@ namespace Project_BE_Web.Controllers
         {
             return View();
         }
-
+        [Route("/LoginRegister")]
         public IActionResult LoginRegister()
         {
-            return View("LoginRegister");
+            return View();
+        }
+        [Route("/Cart")]
+        public IActionResult Cart() {
+            return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

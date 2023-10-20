@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WsMOYi064i99kLWb4UlWkX6ugSYT7FaOfacw7Sq7r4U=",
+  "Hash": "9WWznzWg/SwsoeN1nEuP5FQyBcFOJdQ44UfnginTWNo=",
   "Source": "Project_BE_Web",
   "BasePath": "_content/Project_BE_Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Project_BE_Web.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\cart.css",
+      "SourceId": "Project_BE_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\",
+      "BasePath": "_content/Project_BE_Web",
+      "RelativePath": "css/cart.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cart.css"
     },
     {
       "Identity": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\home.css",
