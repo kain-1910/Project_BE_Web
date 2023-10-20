@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\Project_BE_Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\layout.css",
       "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\site.css",
@@ -51,6 +59,46 @@
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\iphone_15.png",
+      "PackagePath": "staticwebassets\\img\\iphone_15.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\iphone_15_pink.png",
+      "PackagePath": "staticwebassets\\img\\iphone_15_pink.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\iphone_15_plus.png",
+      "PackagePath": "staticwebassets\\img\\iphone_15_plus.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\login-bg.png",
+      "PackagePath": "staticwebassets\\img\\login-bg.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\login-img.bmp",
+      "PackagePath": "staticwebassets\\img\\login-img.bmp"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\redminote12-0.png",
+      "PackagePath": "staticwebassets\\img\\redminote12-0.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\slider1.png",
+      "PackagePath": "staticwebassets\\img\\slider1.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\slider2.png",
+      "PackagePath": "staticwebassets\\img\\slider2.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\slider3.png",
+      "PackagePath": "staticwebassets\\img\\slider3.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\slider3.webp",
+      "PackagePath": "staticwebassets\\img\\slider3.webp"
     },
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\js\\layout.js",

@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./fontawesome/css/all.min.css"/>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    
     <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css//home.css"/>
 </head>
 <body>
     <a href="#" class="scroll-btn text-center">
@@ -17,7 +17,7 @@
     <header>
         <div class="container d-flex align-items-center">
             <div class="sidebar-btn d-none">
-                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-bars"></i>
             </div>
             <a href="" class="header__brand">K-Mobile</a>
             <div class="header__search">
@@ -100,10 +100,8 @@
         </ul>
 
     </div>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="main">
+        @RenderBody()
     </div>
 
     <footer>

@@ -23,6 +23,10 @@ namespace Project_BE_Web.Controllers
             return View();
         }
 
+        public IActionResult LoginRegister()
+        {
+            return View("LoginRegister");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
