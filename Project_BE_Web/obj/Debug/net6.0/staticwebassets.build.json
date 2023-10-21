@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zoaru7yndrmrWs6Jq+wW1xIRIVkZjRHqD+ttrlvyBTs=",
+  "Hash": "+QdkUX9AeZ1ZMkSmB9aw5qcrRNnG4Vdz5TPNzbYQd78=",
   "Source": "Project_BE_Web",
   "BasePath": "_content/Project_BE_Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Project_BE_Web.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\admin\\main.css",
+      "SourceId": "Project_BE_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\",
+      "BasePath": "_content/Project_BE_Web",
+      "RelativePath": "css/admin/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin\\main.css"
     },
     {
       "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\cart.css",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\product\\style.css",
+      "SourceId": "Project_BE_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\",
+      "BasePath": "_content/Project_BE_Web",
+      "RelativePath": "css/product/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\product\\style.css"
     },
     {
       "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\site.css",
@@ -306,6 +340,23 @@
       "OriginalItemSpec": "wwwroot\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\Admin\\img-pd-empty.png",
+      "SourceId": "Project_BE_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\",
+      "BasePath": "_content/Project_BE_Web",
+      "RelativePath": "img/Admin/img-pd-empty.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Admin\\img-pd-empty.png"
+    },
+    {
       "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\iphone_15.png",
       "SourceId": "Project_BE_Web",
       "SourceType": "Discovered",
@@ -406,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\login-img.bmp"
+    },
+    {
+      "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\product\\SamSungS23.webp",
+      "SourceId": "Project_BE_Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\",
+      "BasePath": "_content/Project_BE_Web",
+      "RelativePath": "img/product/SamSungS23.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\SamSungS23.webp"
     },
     {
       "Identity": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\redminote12-0.png",

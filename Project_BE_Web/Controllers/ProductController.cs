@@ -2,7 +2,7 @@
 
 namespace Project_BE_Web.Controllers
 {
-    public class PhoneController : Controller
+    public class ProductController : Controller
     {
         public IActionResult Index()
         {
