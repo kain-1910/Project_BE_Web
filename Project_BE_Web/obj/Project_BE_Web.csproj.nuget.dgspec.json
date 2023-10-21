@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj": {}
+    "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj": {
+    "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
+        "projectUniqueName": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
         "projectName": "Project_BE_Web",
-        "projectPath": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\obj\\",
+        "projectPath": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
+        "packagesPath": "C:\\Users\\HXK\\.nuget\\packages\\",
+        "outputPath": "D:\\Programing\\ASP-NET Web\\BTL\\Project_BE_Web\\Project_BE_Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HXK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

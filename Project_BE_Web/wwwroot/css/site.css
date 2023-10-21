@@ -12,11 +12,77 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
-    font-size: 62.5%;
+    /*font-size: 62.5%;*/
     background-color: #f3f3f3;
     padding: 0;
 }
+.fs-25px {
+    font-size: 25px;
+}
 
-main {
-    height: 100vh;
+.fw-500 {
+    font-weight: 500;
+}
+
+.fs-14px {
+    font-size: 14px;
+}
+
+.fs-13px {
+    font-size: 13px !important;
+}
+
+.blue-text {
+    color: #2f88db !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.textColor_198754 {
+    color: #198754;
+}
+
+.heightFitContent {
+    height: fit-content;
+}
+
+.fs-13px {
+    font-size: 13px !important;
+}
+
+.fs-11px {
+    font-size: 11px;
+}
+
+.textNoWrap {
+    text-wrap: nowrap;
+}
+
+.bg-lightDark {
+    background-color: rgb(231, 231, 231);
+}
+
+.maxHeight890px {
+    max-height: 890px;
+}
+
+.fontWeight600 {
+    font-weight: 600;
+}
+
+.p_2-4 {
+    padding: 2px 4px !important;
+}
+
+.bg-f7941e {
+    background-color: #f7941e;
+}
+
+.bg-linear-bf1e2d {
+    background: linear-gradient(180deg, #fd475a 0%, #bf1e2d 100%) 0% 0% no-repeat padding-box;
+}
+
+.borderOrangeHover:hover {
+    border: 1px solid #f7941e !important;
 }

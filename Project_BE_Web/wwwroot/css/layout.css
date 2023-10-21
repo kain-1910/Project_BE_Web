@@ -231,9 +231,8 @@ header.container {
     font-size: 0.8rem;
 }
 
-.menu {
+.listStyle-none {
     list-style: none;
-    padding: 0;
 }
 
 .menu-item {
