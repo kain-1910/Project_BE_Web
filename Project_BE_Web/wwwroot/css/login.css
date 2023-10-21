@@ -1,97 +1,47 @@
-﻿@media only screen and (max-width: 767px) {
-    .log-img {
-        display: none;
-    }
+@media only screen and (max-width: 767px) {
+  .log-img {
+    display: none;
+  }
 }
-
 @media only screen and (max-width: 415px) {
-    .regis-link-btn > div {
-        border: 1px solid black;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-
-    .back_to_login {
-        padding: 5px;
-        border: 1px solid black;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-}
-
-.main {
-    padding: 30px 22px !important;
-    background-color: rgb(255, 255, 255);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.log-img {
-    background-image: url(../img/login-bg.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.log-btn {
-    background-image: url(../img/login-img.bmp);
-    background-size: contain;
-    width: 20%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.res_log-text {
-    font-size: 25px;
-    font-weight: 500;
-}
-
-.explain-text {
-    font-size: 13px;
-    margin-bottom: 1.5rem;
-}
-
-.id-write,
-.pass-write {
-    width: 75%;
-}
-
-.id,
-.passw {
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.line {
-    margin-bottom: 1.5rem;
-}
-
-.welcome-text {
-    font-weight: 500;
-    padding-top: 5px;
-}
-
-.blue-text {
-    color: #2f88db !important;
-    text-decoration: none;
+  .back_to_login {
+    padding: 5px;
+    border: 1px solid black;
     cursor: pointer;
+    border-radius: 5px;
+  }
+}
+.main {
+  padding: 30px 22px !important;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.log-img {
+  background-image: url(/img/login-bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.log-btn {
+  background-image: url(/img/login-img.bmp);
+  background-size: contain;
+  width: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #mainRegister {
-    display: none;
+  display: none;
 }
 
 .hidden {
-    display: none;
-}
-
-.show {
-    display: block !important;
+  display: none;
 }
 
 .icon_password {
-    right: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }

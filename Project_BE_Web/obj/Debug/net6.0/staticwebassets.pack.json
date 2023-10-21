@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Project_BE_Web.bundle.scp.css"
     },
     {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\admin\\main.css",
+      "PackagePath": "staticwebassets\\css\\admin\\main.css"
+    },
+    {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\cart.css",
       "PackagePath": "staticwebassets\\css\\cart.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\product\\style.css",
+      "PackagePath": "staticwebassets\\css\\product\\style.css"
     },
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\css\\site.css",
@@ -65,6 +73,14 @@
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\Admin\\img-pd-empty.png",
+      "PackagePath": "staticwebassets\\img\\Admin\\img-pd-empty.png"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\iphone-15-pro-max-blue-titanium-pure-back-iphone-15-pro-max-blue-titanium-pure-front-2up-screen-usen.png",
+      "PackagePath": "staticwebassets\\img\\iphone-15-pro-max-blue-titanium-pure-back-iphone-15-pro-max-blue-titanium-pure-front-2up-screen-usen.png"
+    },
+    {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\iphone_15.png",
       "PackagePath": "staticwebassets\\img\\iphone_15.png"
     },
@@ -83,6 +99,10 @@
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\login-img.bmp",
       "PackagePath": "staticwebassets\\img\\login-img.bmp"
+    },
+    {
+      "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\product\\SamSungS23.webp",
+      "PackagePath": "staticwebassets\\img\\product\\SamSungS23.webp"
     },
     {
       "Id": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\wwwroot\\img\\redminote12-0.png",

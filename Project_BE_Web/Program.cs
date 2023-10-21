@@ -29,8 +29,6 @@ namespace Project_BE_Web
             app.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
             app.Run();
         }
     }

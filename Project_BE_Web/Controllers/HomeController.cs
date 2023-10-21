@@ -31,6 +31,11 @@ namespace Project_BE_Web.Controllers
         public IActionResult Cart() {
             return View();
         }
+        [Route("/ProductInformation")]
+        public IActionResult ProductInformation()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

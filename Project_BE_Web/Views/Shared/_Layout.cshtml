@@ -8,53 +8,52 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="stylesheet" href="./css//home.css"/>
-    <link rel="stylesheet" href="./css/login.css" />
-    <link rel="stylesheet" href="./css/cart.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <a href="#" class="scroll-btn text-center">
-        <i class="fa-solid fa-caret-up"></i>
-    </a>
-    <header>
+   
+    <header class="py-3 position-sticky mb-4 shadow-sm">
         <div class="container d-flex align-items-center">
             <div class="sidebar-btn d-none">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-ellipsis"></i>
             </div>
-            <a href="" class="header__brand">K-Mobile</a>
-            <div class="header__search">
-                <input type="text" placeholder="Hôm nay bạn cần gì??">
-                <a class="search-icon">
+            <a href="/"
+               class="header__brand text-decoration-none text-body fs-2 fw-bold"
+               style="letter-spacing: 2px;">K-Mobile</a>
+
+            <div class="header__search mx-3 position-relative flex-grow-1">
+                <input class="border-0 fs-6 fw-bold" type="text" placeholder="Hôm nay bạn cần gì??" />
+                <a class="search-icon position-absolute text-light fs-5">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
             </div>
             <div class="order__tools d-flex justify-content-center align-items-center">
                 <div class="header__order d-flex align-items-center">
-                    <i class="fa-solid fa-truck"></i>
-                    <span>Kiểm tra đơn hàng</span>
+                    <i class="fa-solid fa-truck fs-5 me-2"></i>
+                    <span class="text-center">Kiểm tra đơn hàng</span>
                 </div>
-                <div class="header__cart text-center">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <div class="quantity">0</div>
+                <div class="header__cart text-center position-relative">
+                    <i class="fa-solid fa-cart-shopping fs-3 ms-3" style="cursor: pointer;"></i>
+                    <div class="quantity px-1 position-absolute rounded fw-bold">0</div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="layout">
-        <div class="sidebar">
-            <i class="fa-solid fa-xmark close-sidebar-btn"></i>
-            <div class="user d-flex">
-                <div class="user__avatar">
-                    <!-- <img src="" alt=""> -->
-                    <i class="fa-solid fa-user"></i>
+    <div class="layout position-fixed">
+        <div class="sidebar position-relative">
+            <i class="fa-solid fa-xmark close-sidebar-btn position-absolute fs-1"></i>
+            <div class="user d-flex align-items-center">
+                <div class="user__avatar p-4 rounded">
+                    <i class="fa-solid fa-user fs-2"></i>
                 </div>
-                <div class="user__info">
+                <div class="user__info ms-4">
                     <h2>Đăng nhập</h2>
-                    <p class="text-left">Đăng nhập để nhận nhiều ưu đãi</p>
+                    <p class="fs-6">Đăng nhập để nhận nhiều ưu đãi</p>
                 </div>
             </div>
-            <ul class="menu">
+            <ul class="menu list-unstyled p-0">
                 <li class="menu-item">
                     <a class="nav-link" href="#">Samsung</a>
                 </li>
@@ -73,14 +72,13 @@
                 <li class="menu-item">
                     <a class="nav-link" href="#">Xiaomi</a>
                 </li>
-
             </ul>
         </div>
     </div>
 
 
     <div class="container">
-        <ul class="list d-flex justify-content-center">
+        <ul class="list d-flex justify-content-center list-unstyled">
             <li class="nav-item">
                 <a class="nav-link" href="#">Iphone</a>
             </li>
@@ -100,13 +98,17 @@
                 <a class="nav-link" href="#">Oppo</a>
             </li>
         </ul>
-
     </div>
-    <div class="main">
+
+    <div class="min-vh-100">
         @RenderBody()
     </div>
+    <a href="#"
+       class="scroll-btn position-fixed rounded d-flex text-decoration-none">
+        <i class="fa-solid fa-caret-up m-auto fs-4 text-light"></i>
+    </a>
 
-    <footer>
+    <footer class="text-light py-4">
         <div class="container">
             <div class="row">
                 <div class="col-4">
@@ -146,8 +148,7 @@
             </div>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="./js/layout.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
