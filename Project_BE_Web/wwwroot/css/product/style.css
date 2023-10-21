@@ -11,6 +11,7 @@ html {
 .img {
     width: 100%;
 }
+col-12 
 
 .title, .price { 
     margin-bottom: 5px;
@@ -22,6 +23,9 @@ html {
 }
 
 .old_price { 
+    font-size: 15px;
+}
+.fs-15px{
     font-size: 15px;
 }
 
