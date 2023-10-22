@@ -8,5 +8,9 @@ namespace Project_BE_Web.Controllers
         {
             return View();
         }
+        public IActionResult AddNewProduct()
+        {
+            return View();
+        }
     }
 }

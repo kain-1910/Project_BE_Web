@@ -6,12 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Views\Admin\Indexdd.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Views\Admin\Indexdd.cshtml" />
-  </ItemGroup>
-
 </Project>

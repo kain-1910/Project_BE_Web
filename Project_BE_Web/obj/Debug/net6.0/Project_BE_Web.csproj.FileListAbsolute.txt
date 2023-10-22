@@ -50,7 +50,6 @@ D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\sta
 D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\staticwebassets.pack.json
 D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\staticwebassets.build.json
 D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\staticwebassets.development.json
-D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\scopedcss\bundle\Project_BE_Web.styles.css
 D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\scopedcss\projectbundle\Project_BE_Web.bundle.scp.css
 D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\Project_BE_Web.dll
@@ -88,3 +87,4 @@ C:\Users\PC\Source\Repos\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\refint\P
 C:\Users\PC\Source\Repos\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\Project_BE_Web.pdb
 C:\Users\PC\Source\Repos\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\Project_BE_Web.genruntimeconfig.cache
 C:\Users\PC\Source\Repos\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\ref\Project_BE_Web.dll
+D:\Programing\ASP-NET Web\BTL\Project_BE_Web\Project_BE_Web\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutStore.cshtml.rz.scp.css
