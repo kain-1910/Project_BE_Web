@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
       "projectName": "Project_BE_Web",
-      "projectPath": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio\\Project_BE_Web\\Project_BE_Web\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Source\\Repos\\Project_BE_Web\\Project_BE_Web\\Project_BE_Web.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Source\\Repos\\Project_BE_Web\\Project_BE_Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

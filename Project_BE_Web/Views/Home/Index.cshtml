@@ -1,5 +1,5 @@
 ﻿<head>
-    <link rel="stylesheet" href="./css//home.css" />
+    <link rel="stylesheet" href="./css/home.css" />
 </head>
 <div class="container">
     <div class="slide-show">
@@ -28,7 +28,199 @@
 </div>
 
 <div class="container">
+    <h1 class="mb-3 fs-6 fw-bold">
+        <i class="fa-solid fa-house"></i>
+        Trang chủ
+    </h1>
+    <div class="sort-product">
+        <label for="">Lọc danh sách:</label>
+
+        <ul class="sort-product_list">
+            <li class="sort-product_item">
+                <span>
+                    Thương hiệu
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+                <div class="product-dropdown h-auto">
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">Apple</a>
+                        </li>
+                        <li>
+                            <a href="#">Sam Sung</a>
+                        </li>
+                        <li>
+                            <a href="#">Oppo</a>
+                        </li>
+                    </ul>
+
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">Nokia</a>
+                        </li>
+                        <li>
+                            <a href="#">Vivo</a>
+                        </li>
+                        <li>
+                            <a href="#">Xiaomi</a>
+                        </li>
+                    </ul>
+
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">Realmi</a>
+                        </li>
+                        <li>
+                            <a href="#">Huawei</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+
+            <li class="sort-product_item">
+                <span>
+                    Giá
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+                <div class="product-dropdown h-auto">
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">Dưới 1 triệu</a>
+                        </li>
+                        <li>
+                            <a href="#">1-4 triệu</a>
+                        </li>
+                        <li>
+                            <a href="#">4-8 triệu</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">8-12 triệu</a>
+                        </li>
+                        <li>
+                            <a href="#">12-16 triệu</a>
+                        </li>
+                        <li>
+                            <a href="#">16-20 triệu</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">20-100 triệu</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Trên 100 triệu</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="sort-product_item">
+                <span>Khuyến mại</span>
+            </li>
+
+            <li class="sort-product_item">
+                <span>
+                    Sắp xếp
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+                <div class="product-dropdown h-auto" style="min-width: 150px">
+                    <ul class="product-dropdown_list list-unstyled">
+                        <li>
+                            <a href="#">Mặc định</a>
+                        </li>
+                        <li>
+                            <a href="#">Sản phẩm mới</a>
+                        </li>
+                        <li>
+                            <a href="#">Sản phẩm cũ</a>
+                        </li>
+                        <li>
+                            <a href="#">Giá cao đến thấp</a>
+                        </li>
+                        <li>
+                            <a href="#">Giá thấp đến cao</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+    <!-- for mobile -->
+    <ul class="sort-product-mb text-center p-0 list-unstyled allow-scroll">
+
+        <li class="sort-product-mb_item btn btn-success" onclick="dropdown();">
+            <span>
+                Thương hiệu
+                <i class="fa-solid fa-caret-down"></i>
+            </span>
+
+        </li>
+        <li class="sort-product-mb_item">
+            <a href="" class="sort-product-mb_btn btn btn-success">Mới nhất</a>
+        </li>
+
+        <li class="sort-product-mb_item">
+            <a href="" class="sort-product-mb_btn btn btn-success ">Khuyến mại</a>
+        </li>
+
+        <li class="sort-product-mb_item">
+            <a href="" class="sort-product-mb_btn btn btn-success ">Giá thấp</a>
+        </li>
+
+        <li class="sort-product-mb_item">
+            <a href="" class="sort-product-mb_btn btn btn-success ">Giá cao</a>
+        </li>
+
+
+    </ul>
+    <div class="product-dropdown-mb product-dropdown">
+        <ul class="product-dropdown_list list-unstyled">
+            <li>
+                <a href="#">Apple</a>
+            </li>
+            <li>
+                <a href="#">Sam Sung</a>
+            </li>
+            <li>
+                <a href="#">Oppo</a>
+            </li>
+        </ul>
+
+        <ul class="product-dropdown_list list-unstyled">
+            <li>
+                <a href="#">Nokia</a>
+            </li>
+            <li>
+                <a href="#">Vivo</a>
+            </li>
+            <li>
+                <a href="#">Xiaomi</a>
+            </li>
+        </ul>
+
+        <ul class="product-dropdown_list list-unstyled">
+            <li>
+                <a href="#">Realmi</a>
+            </li>
+            <li>
+                <a href="#">Huawei</a>
+            </li>
+        </ul>
+    </div>
+    <!--  -->
     <div class="products">
+        <h2 class="products_title fw-bold">Danh sách sản phẩm</h2>
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3 g-lg-2 g-xl-2">
             <div class="col">
                 <a href="#" class="product">
@@ -245,3 +437,12 @@
         </ul>
     </nav>
 </div>
+@section ScriptDropDown{
+    <script>
+        function dropdown() {
+            $(".product-dropdown").toggleClass("d-flex")
+            $(".sort-product-mb").toggleClass("allow-scroll")
+            $(".sort-product-mb").toggleClass("remove-scroll")
+        }
+    </script>
+}
